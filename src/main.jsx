@@ -249,6 +249,17 @@ const places = [
   },
 ];
 const categories = ["Todas", ...new Set(places.map((p) => p.category))];
+
+const redIcon = new L.Icon({
+  iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+  iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+
 function FlyToSelected({ place }) {
   const map = useMap();
   React.useEffect(() => {
@@ -325,7 +336,7 @@ function App() {
             />
             {selected && <FlyToSelected place={selected} />}
             {places.map((p) => (
-              <Marker key={p.id} position={p.coords}>
+              <Marker key={p.id} position={p.coords} icon={redIcon}>
                 <Popup>
                   <strong>{p.name}</strong>
                   <br />
