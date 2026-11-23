@@ -198,7 +198,7 @@ const places = [
   {
     id: 14,
     name: "Subida al Obelisco",
-    category: "Experiencias",
+    category: "Miradores",
     address: "Av. 9 de Julio y Corrientes",
     coords: [-34.6037, -58.3816],
     desc: "Ascenso al interior del Obelisco para contemplar la ciudad desde sus ventanas panorámicas.",
@@ -311,7 +311,7 @@ const places = [
   {
     id: 22,
     name: "Torre Monumental (Torre de los Ingleses)",
-    category: "Lugares históricos",
+    category: "Miradores",
     address: "Av. Dr. José María Ramos Mejía 1315, Retiro, Buenos Aires",
     coords: [-34.5927, -58.3747],
     desc: "Monumento histórico ubicado frente a la Plaza Fuerza Aérea Argentina, en el barrio de Retiro. Fue inaugurado en 1916 como obsequio de la comunidad británica por el centenario de la Revolución de Mayo. Su arquitectura combina elementos neorrenacentistas y detalles vinculados a la tradición británica. Se puede visitar su interior y subir al mirador para disfrutar de las vistas de la ciudad.",
@@ -321,6 +321,35 @@ const places = [
     link: "https://turismo.buenosaires.gob.ar/",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVcMIuxb7WNXLRY92dQt_tFPQJn-0HQiFgl1Qosnm_X3wYjV2usJQ6__x&s=10",
+  },
+  {
+    id: 23,
+    name: "Mercado de San Telmo",
+    category: "Mercados y paseos",
+    address: "Carlos Calvo 495, San Telmo, Buenos Aires",
+    coords: [-34.6207, -58.3732],
+    desc: "Mercado histórico inaugurado en 1897, con una estructura de hierro de estilo industrial que conserva gran parte de su arquitectura original. En su interior conviven puestos de antigüedades, productos frescos, objetos curiosos y una variada oferta gastronómica. Ideal para recorrer, comer algo y descubrir el ambiente tradicional de San Telmo.",
+    hours: "Todos los días de 9 a 21",
+    price: "Entrada gratuita",
+    status: "Paseo libre",
+    link: "https://turismo.buenosaires.gob.ar/",
+    image:
+      "https://www.civitatis.com/f/argentina/buenos-aires/tour-mercado-san-telmo-589x392.jpg",
+  },
+  {
+    id: 24,
+    name: "Mirador de la Galería Güemes",
+    category: "Miradores",
+    address: "Florida 165 / San Martín 170, Microcentro, Buenos Aires",
+    coords: [-34.6077, -58.3745],
+    desc: "Mirador ubicado en el piso 14 de la histórica Galería Güemes, inaugurada en 1915. Ofrece una vista panorámica de 360° del centro porteño, sus cúpulas, el Río de la Plata y, en días despejados, la costa uruguaya. Se accede por los ascensores de la Torre Mitre y luego por una escalera.",
+    hours:
+      "Lunes a viernes: ingresos a las 11:00, 12:00, 14:00 y 15:30. Cerrado sábados, domingos, feriados y días de lluvia.",
+    price: "$10.000 ARS",
+    status: "Vista panorámica",
+    link: "https://www.galeriaguemes.com.ar/mirador.html",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU_Lj7R7DahLWxEKUKGy1vRWaMqJr0p22H9OfvQDsatsQ6Sy1NN52W98iG&s=10",
   },
 ];
 const categories = ["Todas", ...new Set(places.map((p) => p.category))];
