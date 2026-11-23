@@ -15,7 +15,7 @@ const places = [
     desc: "El monumental Palacio del Congreso reúne las cámaras del Poder Legislativo nacional. El recorrido permite conocer salones, recintos y detalles de su arquitectura e historia parlamentaria.",
     hours: "Lun–vie: 11, 13, 15 y 17 h (español). Duración: 60–90 min.",
     price: "Gratis · Inscripción individual previa",
-    status: "Visitas confirmadas",
+    status: "Disponibilidad a confirmar",
     link: "https://www.hcdn.gob.ar/secgralpres/dcultura/visitas-guiadas/",
     image:
       "https://thumbs.dreamstime.com/b/congreso-nacional-buenos-aires-argentina-28275705.jpg",
@@ -30,7 +30,7 @@ const places = [
     hours:
       "Visita general: aprox. 1 h. Reservas online; recorridas culturales lunes y martes.",
     price: "Gratis · Reserva online",
-    status: "Visitas confirmadas",
+    status: "Disponibilidad a confirmar",
     link: "https://visitas.legislatura.gob.ar/",
     image:
       "https://media.ambito.com/p/87a5c427f5d41b3f4f74e68d8b69e79a/adjuntos/239/imagenes/037/241/0037241651/legislatura13jpg.jpg",
@@ -148,7 +148,7 @@ const places = [
     hours:
       "Mié–dom, 13–19 h (último ingreso 18:30). Visitas guiadas públicas a las 16 h.",
     price: "Gratis · Sin reserva previa",
-    status: "Datos oficiales consultados",
+    status: "Bar Croque Madame",
     link: "https://museoartedecorativo.cultura.gob.ar/info/visitas/",
     image: "https://www.cultura.gob.ar/media/uploads/mdad.jpg",
   },
@@ -176,7 +176,7 @@ const places = [
     hours:
       "Visitas sujetas a programación y disponibilidad. Se coordina con reservaspalaciopaz@gmail.com",
     price: "Gratis",
-    status: "Agenda a verificar",
+    status: "Bar Croque Madame",
     link: "https://circulomilitar.org.ar/cultura/agenda",
     image:
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e9/a5/d8/hall-general-san-martin.jpg?w=900&h=500&s=1",
@@ -191,7 +191,7 @@ const places = [
     hours:
       "Visitas guiadas con diferentes horarios y formatos. Se requiere reserva previa.",
     price: "A partir de $43.000",
-    status: "",
+    status: "Vista panorámica",
     link: "https://palaciobarolotours.com.ar/",
     image: "https://media.timeout.com/images/106150633/image.webp",
   },
@@ -204,7 +204,7 @@ const places = [
     desc: "Ascenso al interior del Obelisco para contemplar la ciudad desde sus ventanas panorámicas.",
     hours: "De 9 a 23:30, todos los días. Turnos con reserva. ",
     price: "$22.500",
-    status: "Disponibilidad variable",
+    status: "Vista panorámica",
     link: "https://miradorobelisco.com.ar/",
     image:
       "https://media.ambito.com/p/ad400a76f24d89cd9d083ce891a60a3d/adjuntos/239/imagenes/042/833/0042833622/obelisco.jpg",
@@ -252,7 +252,7 @@ const places = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaDY4WOKPLGL8h-_z0vV9vJ5SwsX5Fskbywvx5FRzsn7yQrhtSoEYNEoEZ&s=10",
   },
   {
-    id: 19,
+    id: 18,
     name: "Cementerio de la Recoleta",
     category: "Museos y lugares históricos",
     address: "Junín 1760, Recoleta, Buenos Aires",
@@ -265,6 +265,62 @@ const places = [
     link: "https://buenosaires.gob.ar/gcaba_historico/visitas-turisticas-al-cementerio-de-la-recoleta",
     image:
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1c/7c/bb/recoleta-cemetery.jpg?w=900&h=500&s=1",
+  },
+  {
+    id: 19,
+    name: "Floralis Genérica",
+    category: "Parques y espacios públicos",
+    address: "Av. Pres. Figueroa Alcorta 2301, Recoleta",
+    coords: [-34.5831, -58.3931],
+    desc: "Escultura metálica de una enorme flor ubicada en la Plaza de las Naciones Unidas. Sus pétalos se abren y cierran según un mecanismo que originalmente acompañaba el ciclo del día y la noche. Es uno de los íconos modernos de Buenos Aires.",
+    hours: "Espacio público de acceso libre.",
+    price: "Gratis",
+    status: "Paseo libre",
+    link: "https://turismo.buenosaires.gob.ar/",
+    image:
+      "https://turismo.buenosaires.gob.ar/sites/turismo/files/floralis-verano-gente-sol-26-1500x610.jpg",
+  },
+  {
+    id: 20,
+    name: "Parque de la Memoria",
+    category: "Parques y espacios públicos",
+    address: "Av. Costanera Rafael Obligado 6745, Núñez",
+    coords: [-34.5458, -58.4495],
+    desc: "Espacio público dedicado a la memoria de las víctimas del terrorismo de Estado en Argentina. Su recorrido incluye el Monumento a las Víctimas del Terrorismo de Estado, con los nombres de las personas desaparecidas y asesinadas, además de esculturas y un entorno junto al Río de la Plata.",
+    hours: "Todos los días de 10 a 18.",
+    price: "Gratis",
+    status: "Paseo libre",
+    link: "https://parquedelamemoria.org.ar/",
+    image:
+      "https://parquedelamemoria.org.ar/wp-content/uploads/2020/04/1_Parque_Responsive_18.jpg",
+  },
+  {
+    id: 21,
+    name: "Plaza Seca de AMIA",
+    category: "Lugares históricos y de memoria",
+    address: "Pasteur 633, Balvanera, Buenos Aires",
+    coords: [-34.601806, -58.399444],
+    desc: "Espacio abierto y memorial ubicado en el acceso principal de la sede de AMIA. Fue concebido como lugar de memoria tras el atentado del 18 de julio de 1994. Un sitio para recordar a las víctimas y reflexionar sobre uno de los hechos más dolorosos de la historia argentina reciente.",
+    hours: "Espacio exterior.",
+    price: "Gratis",
+    status: "Espacio de memoria",
+    link: "https://www.amia.org.ar/2024/01/25/visitas-guiadas-al-edificio-de-amia-una-experiencia-memorable/",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHr9yybRi6hxLEaET4QhtMq6h4UjeNvK9BDtGUQd1UFz-LLaRD_-6-ac&s=10",
+  },
+  {
+    id: 22,
+    name: "Torre Monumental (Torre de los Ingleses)",
+    category: "Lugares históricos",
+    address: "Av. Dr. José María Ramos Mejía 1315, Retiro, Buenos Aires",
+    coords: [-34.5927, -58.3747],
+    desc: "Monumento histórico ubicado frente a la Plaza Fuerza Aérea Argentina, en el barrio de Retiro. Fue inaugurado en 1916 como obsequio de la comunidad británica por el centenario de la Revolución de Mayo. Su arquitectura combina elementos neorrenacentistas y detalles vinculados a la tradición británica. Se puede visitar su interior y subir al mirador para disfrutar de las vistas de la ciudad.",
+    hours: "Lun a Vie de 10 a 17hs. Sáb, dom y feriados de 10 a 18hs.",
+    price: "$2000",
+    status: "Vista panorámica",
+    link: "https://turismo.buenosaires.gob.ar/",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVcMIuxb7WNXLRY92dQt_tFPQJn-0HQiFgl1Qosnm_X3wYjV2usJQ6__x&s=10",
   },
 ];
 const categories = ["Todas", ...new Set(places.map((p) => p.category))];
