@@ -13,8 +13,7 @@ const places = [
     address: "Av. Entre Ríos 50",
     coords: [-34.6097, -58.3927],
     desc: "El monumental Palacio del Congreso reúne las cámaras del Poder Legislativo nacional. El recorrido permite conocer salones, recintos y detalles de su arquitectura e historia parlamentaria.",
-    hours:
-      "Lun–vie: 11, 13, 15 y 17 h (español). Duración: 60–90 min.",
+    hours: "Lun–vie: 11, 13, 15 y 17 h (español). Duración: 60–90 min.",
     price: "Gratis · Inscripción individual previa",
     status: "Visitas confirmadas",
     link: "https://www.hcdn.gob.ar/secgralpres/dcultura/visitas-guiadas/",
@@ -43,7 +42,8 @@ const places = [
     address: "Cerrito 618",
     coords: [-34.6011, -58.3833],
     desc: "Uno de los grandes teatros líricos del mundo. El tour recorre espacios emblemáticos, como el Foyer, la Galería de Bustos y el Salón Dorado, sujeto a disponibilidad.",
-    hours: "Visitas guiadas todos los días. Salidas cada 15 minutos. Lunes a domingos de 10 a 16:45.",
+    hours:
+      "Visitas guiadas todos los días. Salidas cada 15 minutos. Lunes a domingos de 10 a 16:45.",
     price: "Residentes argentinos (con DNI): $18.000",
     status: "",
     link: "https://teatrocolon.org.ar/visitas-guiadas/",
@@ -58,7 +58,8 @@ const places = [
     coords: [-34.6038, -58.3689],
     desc: "El antiguo Palacio de Correos es hoy un centro cultural de gran escala. Explorar sus salas, espacios, cúpula y arquitectura es parte de la experiencia; la agenda también ofrece visitas y actividades.",
     hours: "Miércoles a domingos, 14 a 20 h.",
-    price: "Actividad gratuita. Hay opción de reservar visitas guiadas y espectáculos (https://palaciolibertad.gob.ar/agenda/).",
+    price:
+      "Actividad gratuita. Hay opción de reservar visitas guiadas y espectáculos (https://palaciolibertad.gob.ar/agenda/).",
     status: "Agenda variable",
     link: "https://palaciolibertad.gob.ar/",
     image:
@@ -97,12 +98,12 @@ const places = [
     id: 7,
     name: "Antiguo recinto del Congreso Nacional",
     category: "Historia",
-    address:
-      "Balcarce 139",
+    address: "Balcarce 139",
     coords: [-34.6093, -58.3708],
     desc: " Fue la primera sede del Congreso de la Nación Argentina en Buenos Aires, inaugurada en 1864 por el presidente Bartolomé Mitre y utilizada hasta 1905, cuando las sesiones pasaron al actual Palacio del Congreso.",
     hours: "Martes y Jueves 15 y 17 h.",
-    price: "Gratis. No requiere reserva previa; puedes acercarte directamente unos minutos antes de cualquiera de los turnos fijos.",
+    price:
+      "Gratis. No requiere reserva previa; puedes acercarte directamente unos minutos antes de cualquiera de los turnos fijos.",
     status: "",
     link: "https://www.argentina.gob.ar/pais/patrimonio/antiguo-congreso",
     image:
@@ -129,7 +130,8 @@ const places = [
     address: "Florida 801",
     coords: [-34.5972, -58.3758],
     desc: "Edificio monumental de estilo academicista, sede de una institución naval histórica. Hay un restaurante en el 6to piso en el que se puede desayunar o almorzar",
-    hours: "Desayunos: Lun-vie, de 9:30 a 11:00. Almuerzos: Lun-vie, de 12:00 a 15:30",
+    hours:
+      "Desayunos: Lun-vie, de 9:30 a 11:00. Almuerzos: Lun-vie, de 12:00 a 15:30",
     price: "",
     status: "",
     link: "https://www.centronaval.org.ar/web-cn/actividades/restaurante.html",
@@ -171,7 +173,8 @@ const places = [
     address: "Av. Santa Fe 750",
     coords: [-34.5957, -58.3784],
     desc: "Residencia palaciega de principios del siglo XX, con salones, escalinatas y decoración de inspiración francesa. En su interior hay un bar Croque Madame abierto todos los días desde las 9am",
-    hours: "Visitas sujetas a programación y disponibilidad. Se coordina con reservaspalaciopaz@gmail.com",
+    hours:
+      "Visitas sujetas a programación y disponibilidad. Se coordina con reservaspalaciopaz@gmail.com",
     price: "Gratis",
     status: "Agenda a verificar",
     link: "https://circulomilitar.org.ar/cultura/agenda",
@@ -185,7 +188,8 @@ const places = [
     address: "Av. de Mayo 1370",
     coords: [-34.6092, -58.3855],
     desc: "Edificio inspirado en la Divina Comedia. Los recorridos exploran su simbolismo, arquitectura y espacios elevados con vistas panorámicas de la ciudad.",
-    hours: "Visitas guiadas con diferentes horarios y formatos. Se requiere reserva previa.",
+    hours:
+      "Visitas guiadas con diferentes horarios y formatos. Se requiere reserva previa.",
     price: "A partir de $43.000",
     status: "",
     link: "https://palaciobarolotours.com.ar/",
@@ -247,13 +251,31 @@ const places = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaDY4WOKPLGL8h-_z0vV9vJ5SwsX5Fskbywvx5FRzsn7yQrhtSoEYNEoEZ&s=10",
   },
+  {
+    id: 19,
+    name: "Cementerio de la Recoleta",
+    category: "Museos y lugares históricos",
+    address: "Junín 1760, Recoleta, Buenos Aires",
+    coords: [-34.5883, -58.3931],
+    desc: "Uno de los cementerios más famosos de América Latina, reconocido por sus imponentes mausoleos, esculturas y arquitectura funeraria. Allí descansan figuras destacadas de la historia argentina, entre ellas Eva Perón. Un recorrido por sus calles permite descubrir historias, símbolos y obras de arte.",
+    hours: "9 a 17.",
+    price:
+      "El cementerio ofrece recorridos guiados gratuitos en español saliendo cada una hora desde el acceso principal: lunes a viernes de 10 a 16 horas; sábados, domingos y feriados de 9 a 16 horas",
+    status: "Visita turística",
+    link: "https://buenosaires.gob.ar/gcaba_historico/visitas-turisticas-al-cementerio-de-la-recoleta",
+    image:
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/1c/7c/bb/recoleta-cemetery.jpg?w=900&h=500&s=1",
+  },
 ];
 const categories = ["Todas", ...new Set(places.map((p) => p.category))];
 
 const redIcon = new L.Icon({
-  iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
-  iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
-  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+  iconUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+  iconRetinaUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+  shadowUrl:
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
