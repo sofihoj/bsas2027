@@ -312,7 +312,7 @@ main {
 footer {
     text-align: center;
     padding: 60px 0 20px;
-    color: #68665f
+    color: #68665f;
 }
 
 footer p {
@@ -322,7 +322,8 @@ footer p {
 }
 
 footer small {
-    font-size: 12px
+    font-size: 12px;
+    background-color: pink
 }
 
 @media(max-width:1000px) {

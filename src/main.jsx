@@ -531,7 +531,7 @@ function App() {
           )}
         </section>
         <section className="notes">
-          <h2>Antes de salir</h2>
+          <h3>Antes de salir</h3>
           <p>
             Esta guía es una recopilación independiente. Los precios, horarios,
             cupos y circuitos pueden cambiar, y algunas instituciones suspenden
@@ -540,8 +540,7 @@ function App() {
             siempre en el enlace oficial antes de organizar tu visita.
           </p>
           <p className="updated">
-            Revisión de fuentes: noviembre de 2026 · Valores en pesos argentinos
-            cuando se publiquen.
+            Revisión de fuentes: noviembre de 2026 · Valores en pesos argentinos.
           </p>
         </section>
         <footer>
